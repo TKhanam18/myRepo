@@ -4,7 +4,7 @@ Feature: Customer Login Functionality
   I want to Login as Customer
   So that I can see Customer Home page
 
-
+  @smoke
   Scenario: Verify Customer Login Functionality
     Given I am in Landing Page
     Then I click on Login Menu
